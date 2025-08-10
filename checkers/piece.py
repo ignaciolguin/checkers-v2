@@ -4,7 +4,7 @@ from .constants import RED, WHITE, SQUARE_SIZE, GREY
 
 class Piece:
 
-    PADDING = 10
+    PADDING = 12
     OUTLINE = 5
 
     def __init__(self, row, col, color):
